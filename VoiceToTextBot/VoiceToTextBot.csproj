@@ -6,7 +6,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Config.Net" Version="4.15.0" />
+      <PackageReference Include="Config.Net.Json" Version="4.15.0" />
       <PackageReference Include="Telegram.Bot" Version="15.7.1" />
+      <PackageReference Include="VkNet" Version="1.60.0" />
       <PackageReference Include="Vosk" Version="0.3.19" />
       <PackageReference Include="Xabe.FFmpeg" Version="4.4.0" />
     </ItemGroup>
